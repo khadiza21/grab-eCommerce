@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+//import Spinner from './Spinner/Spinner/Spinner';
+//import SpinnerWheelDecider from './Spinner/SpinnerWheelDecider/SpinnerWheelDecider';
+//import OrderHIstory from './component/OrderHistory/OrderHIstory';
+import BottomFooter from './Shared/BottomFooter/BottomFooter';
+//import RuleDescription from './component/RuleDescription/RuleDescription';
+//import PromoDes from './component/PromoDes/PromoDes';
+//import About from './component/About/About';
+//import OrderGrab from './component/OrderGrab/OrderGrab';
+import Dashboard from './Dashboard/Dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {/* <About></About> */}
+      {/* <RuleDescription></RuleDescription> */}
+      {/* <PromoDes></PromoDes> */}
+
+      {/* <OrderGrab></OrderGrab> */}
+      {/* <OrderHIstory></OrderHIstory> */}
+      <Dashboard className="bottom-content-area "></Dashboard>
+
+
+      <BottomFooter></BottomFooter>
+
+      {/* { <Spinner></Spinner> } */}
+      {/* <SpinnerWheelDecider></SpinnerWheelDecider> */}
+
     </div>
   );
 }
