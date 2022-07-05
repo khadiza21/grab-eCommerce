@@ -1,9 +1,9 @@
 import React from 'react';
 import './OrderHistory.css'
-import CustonLink from '../../Shared/CustomLInk/CustiomLInk';
+import CustomLink from '../../Shared/CustomLInk/CustomLink';
 const OrderHIstory = () => {
     return (
-        <div className="bg-slate-800 ">
+        <div className="bg-slate-800   pb-40">
 
             <header className=" bg-gray-900 navbar flex justify-end  pr-5   py-4">
                 <h1 href className=" lg:pr-5 md:pr-5  uppercase text-base md:text-2xl lg:text-3xl  font-bold text-white">History</h1>
@@ -26,10 +26,10 @@ const OrderHIstory = () => {
                     <section className="">
                         <div className=" bg-gray-600 ">
                             <ul className="flex  text-small py-4 lg:text-xl md:text-xl text-center text-white">
-                                <li ><CustonLink to="/">All</CustonLink></li>
-                                <li ><CustonLink to="/p">Pending</CustonLink></li>
-                                <li ><CustonLink to="/p">Completed</CustonLink></li>
-                                <li ><CustonLink to="/p">Canceled</CustonLink></li>
+                                <li ><CustomLink to="/">All</CustomLink></li>
+                                <li ><CustomLink to="/p">Pending</CustomLink></li>
+                                <li ><CustomLink to="/p">Completed</CustomLink></li>
+                                <li ><CustomLink to="/p">Canceled</CustomLink></li>
                             </ul>
 
 

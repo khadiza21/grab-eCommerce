@@ -5,7 +5,7 @@ import './OrderGrab.css';
 const OrderGrab = () => {
     return (
         <div>
-            <div>
+            <div className="  ">
                 <header className=" bg-gray-900 navbar    max-w-[1080] mx-auto py-4">
                     <div className="wrapper ">
 

@@ -3,7 +3,7 @@ import './PromoDes.css'
 
 const PromoDes = () => {
     return (
-        <div className="bg-slate-800">
+        <div className="bg-slate-800  ">
             <header className=" bg-gray-900 navbar    max-w-[1080] mx-auto py-4">
                     <div className="wrapper ">
 

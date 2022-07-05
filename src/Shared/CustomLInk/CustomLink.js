@@ -1,7 +1,7 @@
 import React from 'react';
 import { useResolvedPath, useMatch, Link } from 'react-router-dom';
 
-const CustiomLInk = ({ children, to, ...props }) => {
+const CustomLink = ({ children, to, ...props }) => {
     let resolved = useResolvedPath(to);
   let match = useMatch({ path: resolved.pathname, end: true });
     return (
@@ -23,4 +23,4 @@ const CustiomLInk = ({ children, to, ...props }) => {
     );
 };
 
-export default CustiomLInk;
+export default CustomLink;
